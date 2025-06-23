@@ -102,6 +102,8 @@ public class Person {
         Person person = Main.persons.get(random.nextInt(Main.persons.size()));
         person.money += money;
 
+//            System.out.printf("DIED: \nPerson: %s \nSuccessor: %s\n", this, person);
+
         Main.persons.remove(this);
 
         TOTAL_DEAD++;
